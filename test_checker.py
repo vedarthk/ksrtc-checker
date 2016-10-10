@@ -7,5 +7,5 @@ class MyTestCase(SeleniumTestCase):
         self.wd.get("http://www.ksrtc.in/oprs-web/")
         self.assertEqual(
             self.wd.title,
-            "KSRTC Official Website for Online Bus Ticket Booking - KSRTC.in"
+            "KSRTC Official Website for Online Bus Ticket Booking - KSRTC.in "
         )
