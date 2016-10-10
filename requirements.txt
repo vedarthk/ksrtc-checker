@@ -1,0 +1,1 @@
+nose-selenium==0.7
