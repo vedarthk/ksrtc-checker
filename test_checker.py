@@ -2,13 +2,13 @@ import time
 import unittest
 from selenium import webdriver
 
-class MyTestCase(unittest.TestCase):
+class TestIfBookingForm(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.PhantomJS()
         self.base_url = "http://www.ksrtc.in/oprs-web/"
 
-    def test_title(self):
+    def test_if_booking_is_open(self):
         self.driver.get(self.base_url)
 
         from_place = self.driver.find_element_by_name("fromPlaceName")
